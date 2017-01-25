@@ -55,3 +55,18 @@ function numToString(num){
   }
   return outputArray.join('')
 }
+
+class Dog{
+  constructor(name, age){
+    this.name = name;
+    this.age = age;
+    }
+
+    speak(){
+      console.log('woof, woof!')
+    }
+}
+
+class Cat extends Dog{
+
+}
